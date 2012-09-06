@@ -54,7 +54,8 @@ The articles are "item" elements. The authors name is in "dc:creator" element.
 The URL to see the article is in the "link" element.
 
 When I did this the result looked like this:
----------------
+
+<pre>
 
 plocinic:
   Your Summer of Code 2012 with Scala: http://www.scala-lang.org/node/12565
@@ -90,7 +91,7 @@ bagwell:
   Scala Days 2012 - Shaping Up!: http://www.scala-lang.org/node/12473
   Scala Artifacts on Maven Central - Scala-tools retires: http://www.scala-lang.org/node/12437
 
----------------
+</pre>
 
 .. but the feed can of course change and the you can format the output any way you want.
 My first implementation of this was 23 lines in the whole .scala file. If you go above 
